@@ -11,8 +11,9 @@
 		BE69BEDC26C6845100BE1FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69BEDB26C6845100BE1FEA /* ContentView.swift */; };
 		BE69BEDE26C6845200BE1FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE69BEDD26C6845200BE1FEA /* Assets.xcassets */; };
 		BE69BEE126C6845200BE1FEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE69BEE026C6845200BE1FEA /* Preview Assets.xcassets */; };
-		BE69BEE326C6845200BE1FEA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69BEE226C6845200BE1FEA /* Persistence.swift */; };
 		BE69BEE626C6845200BE1FEA /* CoreDataMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE69BEE426C6845200BE1FEA /* CoreDataMVVMDemo.xcdatamodeld */; };
+		BE69BEEE26C6845E00BE1FEA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69BEED26C6845E00BE1FEA /* CoreDataManager.swift */; };
+		BE69BEF026C68B8000BE1FEA /* TaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69BEEF26C68B8000BE1FEA /* TaskVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		BE69BEDB26C6845100BE1FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE69BEDD26C6845200BE1FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE69BEE026C6845200BE1FEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BE69BEE226C6845200BE1FEA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BE69BEE526C6845200BE1FEA /* CoreDataMVVMDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataMVVMDemo.xcdatamodel; sourceTree = "<group>"; };
 		BE69BEE726C6845200BE1FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE69BEED26C6845E00BE1FEA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BE69BEEF26C68B8000BE1FEA /* TaskVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				BE69BED926C6845100BE1FEA /* CoreDataMVVMDemoApp.swift */,
 				BE69BEDB26C6845100BE1FEA /* ContentView.swift */,
+				BE69BEED26C6845E00BE1FEA /* CoreDataManager.swift */,
+				BE69BEEF26C68B8000BE1FEA /* TaskVM.swift */,
 				BE69BEDD26C6845200BE1FEA /* Assets.xcassets */,
-				BE69BEE226C6845200BE1FEA /* Persistence.swift */,
 				BE69BEE726C6845200BE1FEA /* Info.plist */,
 				BE69BEE426C6845200BE1FEA /* CoreDataMVVMDemo.xcdatamodeld */,
 				BE69BEDF26C6845200BE1FEA /* Preview Content */,
@@ -144,9 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE69BEE326C6845200BE1FEA /* Persistence.swift in Sources */,
+				BE69BEF026C68B8000BE1FEA /* TaskVM.swift in Sources */,
 				BE69BEDC26C6845100BE1FEA /* ContentView.swift in Sources */,
 				BE69BEDA26C6845100BE1FEA /* CoreDataMVVMDemoApp.swift in Sources */,
+				BE69BEEE26C6845E00BE1FEA /* CoreDataManager.swift in Sources */,
 				BE69BEE626C6845200BE1FEA /* CoreDataMVVMDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
